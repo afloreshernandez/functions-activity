@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+   
+<script>
+// <!-- In this activity we will create 3 functions.
+
+// Our first function will accept 1 parameter (a number) and multiply it by itself and return the new value.
+const number = function(num1){
+    return `${num1 * num1}`;
+}
+ console.log(number(3));
+// Our next function will accept 2 parameters (both strings: a first name and a last name) and return the name in the following format: lastName, firstName.
+const fullname = function(firstname, lastname){
+    const full = `${lastname}, ${firstname}`;
+    return full;
+}
+ console.log(fullname(`arianne`,`hernandez`));
+
+// e.g. given the arguments ("Arya", "Stark"), the function should return "Stark, Arya".
+const fullname = function(Arya, Stark){
+    return `${Stark} ${Arya}`;
+}
+ fullname(`Arya`,`Stark,`);
+
+// Our last function will accept 1 parameter (number) and return a boolean: true if the number is even, and false if the number is false. -->
+const boolean = function(value){
+    return value % 2 == 0;
+
+}
+ console.log(boolean(4));
+ console.log(boolean(5));
+
+</script>
+</body>
+</html>
